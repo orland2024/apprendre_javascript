@@ -181,6 +181,7 @@ console.log ("Erreur")
 /*PREMIERE METHODE*/
 
 /*const listeMots = ["Cachalot", "Pétunia", "Serviette"]
+
 let score = 0
 
 let motUser = prompt ("Zone de saisie : " + listeMots[0])
@@ -206,26 +207,76 @@ console.log (score)*/
 
 /*DEUXIEME METHODE*/
 
-const listeMots = ["Cachalot", "Pétunia", "Serviette"]
-let score = 0
+// const listeMots = ["Cachalot", "Pétunia", "Serviette"]
+// let score = 0
 
-let motUser = prompt ("Zone de vérité :" + listeMots[0])
+// let motUser = prompt ("Zone de vérité :" + listeMots[0])
 
-switch (motUser) { 
+// switch (motUser) { 
 
-case listeMots[0]: 
-    score++
+// case listeMots[0]: 
+//     score++
     
 
-    motUser = prompt ("Zone de vérité :" + listeMots[1])
-case listeMots[1]:
-    score++
+//     motUser = prompt ("Zone de vérité :" + listeMots[1])
+// case listeMots[1]:
+//     score++
     
     
-    motUser = prompt ("Zone de vérité :" + listeMots[2])
-case listeMots[2]:
-    score++
+//     motUser = prompt ("Zone de vérité :" + listeMots[2])
+// case listeMots[2]:
+//     score++
      
-console.log (score)
+// console.log (score)
     
-}
+// }
+
+// const Listmot = ["Cindy", "Kristen", "Vie"]
+
+// let scorer = 0
+
+// let motUzer = prompt ("Entrez le mot ici: " + Listmot[0]) 
+
+// if (motUzer === Listmot[0]) {
+
+//     scorer++
+// }
+
+
+// motUzer = prompt ("Entrez le mot ici: " + Listmot[1]) 
+
+// if (motUzer === Listmot[1]) {
+
+//    scorer++
+// }
+
+
+// motUzer = prompt ("Entrez le mot ici: " + Listmot[2]) 
+
+// if (motUzer === Listmot[2]) {
+
+// scorer++
+
+// }
+
+// console.log ("Votre score est de : " + scorer + " sur " + Listmot.length)
+
+// const listMot = ["Résurrection", "Vie", "Miracle"]
+// let scorery = 0
+
+// for (let i = 0; i<listMot.length; i++) {
+
+// let motUzzer = prompt ("Zone de saisie : " + listMot[i])
+// if ( motUzzer === listMot[i] ) {
+//     scorery++
+// }
+// console.log (scorery)
+// }
+
+  
+
+  
+  
+
+
+

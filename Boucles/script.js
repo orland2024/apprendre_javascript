@@ -75,43 +75,104 @@
 
 
 
-const listMots = ["MBOUMBA","CINDY","PRINCESSE","CHANCELLE"]
-const listPhrases = ["Pas de panique ! "," La vie, l’univers et le reste "," Merci pour le poisson"]
+// const listMots = ["MBOUMBA","CINDY","PRINCESSE","CHANCELLE"]
+// const listPhrases = ["Pas de panique ! "," La vie, l’univers et le reste "," Merci pour le poisson"]
 
-let score = 0
+// let score = 0
 
-let choix = prompt ("Veuillez choisir la liste: " + listMots + listPhrases )
-while (choix !== listMots && choix !== listPhrases) {
-    choix = prompt ("Veuillez choisir la liste: Mots ou Phrases")
+// let choix = prompt ("Veuillez choisir la liste: " + listMots + listPhrases )
+// while (choix !== listMots && choix !== listPhrases) {
+//     choix = prompt ("Veuillez choisir la liste: Mots ou Phrases")
+// }
+
+// if (choix !== listMots) {
+// for (let i = 0; i < listMots.length; i++) {
+
+// let motUzer = prompt ("Entrez le mot ici: " + listMots[i])
+// if (motUzer === listMots[i]) {
+
+//   score++
+// }
+
+// console.log(score)
+
+// }
+
+// } else {
+
+// if (choix !== listPhrases) 
+// for (let i=0; i < listPhrases.length; i++ ) {
+
+// let frazUser = prompt ("Entrez la phrase :" + listPhrases[i])
+// if (frazUser === listPhrases[i]) {
+
+//   score++
+
+// }
+
+// }
+
+// }
+
+// console.log(score)
+
+// let motUzer = prompt ("Ecrivez Cindy")
+// while (motUzer !== "Cindy") {
+
+//   motUzer = prompt ("Ecrivez Cindy")
+
+  
+// }
+
+// console.log ("Vous avez réussi !")
+
+
+// Déclaration des listes (tableaux) des mots et prhrases 
+  
+const motList = ["CMED","EZECHIEL37","EAGLE"]
+
+const frazList =["Ressuscitez les morts !", "Guérissez les malades !", "Chassez les démons !"]
+
+// Déclaration de la variable stockant le score
+
+let scored = 0
+
+// Déclaration de la variable stockants les valeurs insérées par l'utilisateur
+
+let moUzer ;
+
+// L'utilisateur doit faire le choix entre les "mots" ou les "prhrases"
+
+let choix = prompt (" Veuillez saisir la liste des : mots ou phrases ")  
+
+while (choix !== motList && choix !== frazList) {
+
+  choix = prompt (" Veuillez saisir la liste des : mots ou phrases ")
 }
 
-if (choix !== listMots) {
-for (let i = 0; i < listMots.length; i++) {
+if (choix === "mots") {
 
-let motUzer = prompt ("Entrez le mot ici: " + listMots[i])
-if (motUzer === listMots[i]) {
+  for (let i = 0; i<motList.length; i++) {
 
-  score++
-}
+     moUzer = prompt ("Entrez-le mot ici: " + motList[i])
+  if (moUzer === motList[i]) {
+      scored++
+    } 
+  }
 
-console.log(score)
-
-}
+  
 
 } else {
 
-if (choix !== listPhrases) 
-for (let i=0; i < listPhrases.length; i++ ) {
+  for (let i=0; i<frazList.length; i++) {
 
-let frazUser = prompt ("Entrez la phrase :" + listPhrases[i])
-if (frazUser === listPhrases[i]) {
+    moUzer = prompt ("Entrez-le mot ici: " + frazList[i])
+  if (moUzer === frazList[i]) {
+    scored++
 
-  score++
+   }
 
+
+  }
+  console.log ("Ton score est de : " + score + " sur " + frazList.length)
 }
-
-}
-
-}
-
-console.log(score)
