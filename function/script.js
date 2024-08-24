@@ -176,7 +176,7 @@ while (choixOrdi != choixUtilisateur) {
 }
  
 // Ce message ne s'affichera seulement si le choixUtilisateur == choixOrdi (boucle while vérifiée)
-console.log("vous avez trouvé le bon chiffre bravo !");
+console.log("vous avez trouvé le bon chiffre bravo !"); 
 
         
     
